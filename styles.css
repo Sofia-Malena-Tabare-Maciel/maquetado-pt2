@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    padding-top: 70px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .hero {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  .contacto {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+  }
+  
+  .contacto h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .cervezas {
+    padding: 60px 0;
+  }
+  
+  .cervezas h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .cervezas .card {
+    margin-bottom: 20px;
+  }
+  
+  .novedades {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+  }
+  
+  .novedades h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    color: #fff;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  

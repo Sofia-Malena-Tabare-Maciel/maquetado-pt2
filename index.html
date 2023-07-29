@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervecería El Buen Sabor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Cervecería El Buen Sabor</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#variedad">Variedad de Cervezas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#novedades">Novedades</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Inicio -->
+  <section id="inicio" class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1>Bienvenidos a Cervecería El Buen Sabor</h1>
+          <p>La mejor cerveza artesanal te espera</p>
+        </div>
+        <div class="col-md-6">
+          <img src="media/proveedores-de-cerveza.jpg" alt="Cervecería El Buen Sabor" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Estamos ubicados en la calle Principal, número 123, Ciudad. ¡Visítanos y disfruta de nuestra cerveza artesanal!</p>
+          <ul class="list-unstyled">
+            <li><strong>Teléfono:</strong> (123) 456-7890</li>
+            <li><strong>Correo electrónico:</strong> contacto@cerveceria.com</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Variedad de Cervezas -->
+  <section id="variedad" class="cervezas">
+    <div class="container">
+      <h2>Variedad de Cervezas</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="media/cerveza 1.jpg" class="card-img-top" alt="Cerveza 1">
+            <div class="card-body">
+              <h5 class="card-title">Cerveza Especial</h5>
+              <p class="card-text">Nuestra cerveza especial combina el sabor dulce de la malta con un toque de amargor que la hace irresistible.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="media/cerveza 2.jpg" class="card-img-top" alt="Cerveza 2">
+            <div class="card-body">
+              <h5 class="card-title">Cerveza IPA</h5>
+              <p class="card-text">La cerveza IPA destaca por su intenso aroma a lúpulo y su sabor amargo que enamora a los amantes de la cerveza.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="media/cerveza 3.jpg" class="card-img-top" alt="Cerveza 3">
+            <div class="card-body">
+              <h5 class="card-title">Cerveza Lager</h5>
+              <p class="card-text">Nuestra cerveza Lager es refrescante y ligera, perfecta para disfrutar en cualquier ocasión.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Novedades -->
+  <section id="novedades" class="novedades">
+    <div class="container">
+      <h2>Novedades</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="media/cerveza 4.jpg" class="card-img-top" alt="Novedad 1">
+            <div class="card-body">
+              <h5 class="card-title">Novedad 1</h5>
+              <p class="card-text">¡Descubre nuestra nueva cerveza de temporada, con notas frutales y un toque de especias!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="media/cerveza 5.jpg" class="card-img-top" alt="Novedad 2">
+            <div class="card-body">
+              <h5 class="card-title">Novedad 2</h5>
+              <p class="card-text">Te presentamos nuestra edición especial limitada, una cerveza única en su estilo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="media/cerveza 6.jpg" class="card-img-top" alt="Novedad 3">
+            <div class="card-body">
+              <h5 class="card-title">Novedad 3</h5>
+              <p class="card-text">No te pierdas nuestra cerveza ganadora de premios internacionales. ¡Una delicia para los paladares exigentes!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="footer bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Cervecería El Buen Sabor. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
